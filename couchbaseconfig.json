@@ -2,8 +2,7 @@
   "logging": {
     "console": {
         "enabled": true,
-        "log_level": "info",
-        "log_keys": ["HTTP"]
+        "log_level": "info"      
     }
   },
   "databases": {
