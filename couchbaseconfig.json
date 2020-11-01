@@ -1,0 +1,18 @@
+{
+  "logging": {
+    "console": {
+        "enabled": true,
+        "log_level": "info",
+        "log_keys": ["HTTP"]
+    }
+  },
+  "databases": {
+    "db": {
+      "server": "http://192.168.1.12:8091",
+      "bucket": "test",
+      "username": "zieniu",
+      "password": "Creative31",
+      "users": { "GUEST": { "disabled": false, "admin_channels": ["*"] } }
+    }
+  }
+}
